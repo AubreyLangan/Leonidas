@@ -66,3 +66,61 @@ p {
     color: #555;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.milestone {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.marker {
+    width: 20px;
+    height: 20px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.content p {
+    margin-bottom: 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 2px;
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+.milestone:first-child .marker {
+    margin-top: 10px;
+}
+
+.milestone:last-child .marker {
+    margin-bottom: 10px;
+}
