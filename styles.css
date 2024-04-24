@@ -197,3 +197,43 @@ ul {
 li {
     margin-bottom: 5px;
 }
+
+.latest-updates {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.latest-updates h2 {
+    color: #333;
+}
+
+.update {
+    margin-bottom: 20px;
+}
+
+.update h3 {
+    color: cornflowerblue;
+    margin-top: 0;
+}
+
+.update p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:dimgray;
+}
