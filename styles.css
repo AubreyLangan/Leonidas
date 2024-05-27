@@ -320,7 +320,7 @@ body {
 }
 
 header {
-    background-color: #ff6600;
+    background-color: cornflowerblue;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -385,4 +385,24 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+.gallery-link {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-link:hover {
+    background-color: dimgray;
 }
