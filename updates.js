@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function(){
     const updates = [
         {
+            date: '2024-06-01',
+            content: 'Leo started babbling mamamama.'
+        },
+        {
             date: '2024-05-29',
             content: 'Leo slept through almost all of Moms stroller strides class.'
         },
